@@ -8,6 +8,9 @@ This repository contains an analysis of network layer communication, focusing on
 
 From the tcpdump log analysis, it was observed that multiple users were unable to access the website `www.yummyrecipesforme.com`. The error message "destination port unreachable" was received when attempting to access the website. Further analysis of network traffic using `tcpdump` revealed that UDP packets sent to the DNS server resulted in ICMP responses indicating "udp port 53 unreachable."
 
+![tcpdump log](https://github.com/user-attachments/assets/0532207b-57df-4502-8adc-9a39e02a19b8)
+
+
 ## Data Analysis
 
 1. **Initial Request:**
